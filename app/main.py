@@ -10,7 +10,7 @@ app = FastAPI(
     title="API de Precio del Dólar en México",
     description="Una API simple para obtener el tipo de cambio del dólar (FIX) en México, utilizando datos del Banco de México.",
     version=f"{settings.API_VERSION}.0.0",
-    docs_url="/documentation",
+    docs_url="/docs",
     redoc_url=None,
 )
 

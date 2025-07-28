@@ -13,7 +13,7 @@ venv/
 /env/
 
 # Pipenv
-Pipfile.lock
+# Pipfile.lock (Ahora incluido en el repositorio para despliegue)
 
 # Logs
 *.log

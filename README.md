@@ -81,6 +81,18 @@ Render es una excelente opción para desplegar aplicaciones FastAPI. Puedes cone
     -   **Start Command:** `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 4.  Añade la variable de entorno `BANXICO_TOKEN` en la sección de Environment Variables de tu servicio en Render. 🔑
 
+## 🌐 Aplicación Desplegada
+
+La aplicación está desplegada y accesible en:
+
+[https://fastapi-dollar-app.onrender.com/](https://fastapi-dollar-app.onrender.com/)
+
+### Rutas Disponibles:
+
+-   **`/api/v1/banxico/`**: Página principal que muestra el precio del dólar. 🏠
+-   **`/api/v1/banxico/data`**: Endpoint API que devuelve el precio del dólar en formato JSON. 📊
+-   **`/docs`**: Documentación interactiva de la API (Swagger UI). 📖
+
 ## 📚 Herramientas y Librerías Utilizadas
 
 -   **FastAPI:** Framework web moderno y rápido para construir APIs con Python. ⚡
