@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Bienvenido a la API del Dólar{% endblock %}
+
+{% block content %}
+    <div class="card text-center">
+        <div class="card-header">
+            Bienvenido
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">API de Precio del Dólar en México</h5>
+            <p class="card-text">Obtén el tipo de cambio del dólar (FIX) actualizado.</p>
+            <a href="/api/v1/banxico/" class="btn btn-primary mt-3">Ver Precio del Dólar</a>
+            <a href="/documentation" class="btn btn-secondary mt-3 ms-2">Ver Documentación API</a>
+        </div>
+        {% include "partials/_footer.html" %}
+    </div>
+{% endblock %}

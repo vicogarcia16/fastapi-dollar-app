@@ -1,0 +1,29 @@
+# Archivos de entorno
+.env
+
+# Directorios de Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Entornos virtuales
+venv/
+.venv/
+/env/
+
+# Pipenv
+Pipfile.lock
+
+# Logs
+*.log
+
+# Docker
+*.dockerignore
+
+# VS Code
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+thumbs.db
